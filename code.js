@@ -16,17 +16,14 @@ $(document).on('scroll', function () {
   const art4Height = $art4.outerHeight()
 
   if (scrollValue > art2FromTop + art2Height - windowHeight) {
-    console.log("jestem art 2 wywietlony w całości");
     $art2.addClass('active');
   }
 
   if (scrollValue > art3FromTop + art3Height - windowHeight) {
-    console.log("jestem art 3 wywietlony w całości");
     $art3.addClass('active');
   }
 
   if (scrollValue > art4FromTop + art4Height - windowHeight) {
-    console.log("jestem art 4 wywietlony w całości");
     $art4.addClass('active');
   }
 
